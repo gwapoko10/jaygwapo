@@ -6,18 +6,21 @@
 }
 
 .hero{
+    
     position: relative;
     width: 100%;
-    height: 100vh;
-    background: white;
+    height: 100%;
+    background: black;
 }
 nav{
     display: flex;
-    width: 84%;
+    width: 100%;
     margin: auto;
     padding: 20px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    
+
 }
    nav ul li{
     display: inline-block;
@@ -28,7 +31,7 @@ nav{
 nav ul li a{
 
     text-decoration: none;
-    color: #000;
+    color: white;
     font-weight: bold;
 
 }
@@ -36,7 +39,7 @@ nav ul li a{
 nav ul li a:hover{
 
     color:red;
-    transition: .4s;
+    
 }
 
 .detel{
@@ -46,14 +49,16 @@ nav ul li a:hover{
 
 }
 .detel h1{
+
 font-size: 50px;
-color: #212121;
+color: white;
 margin-bottom: 20px;
 
 }
 
 .detel h3{
 
+    color: white;
     font-size: 35px;
     margin-bottom: 20px;
 
@@ -65,7 +70,7 @@ span{
 
 .detel p{
 
-color: #555;
+color: white;
 line-height: 22px;
 
 }
@@ -87,4 +92,5 @@ line-height: 22px;
     transition: bottom 1s, left 1s;
 
 }
+
 
